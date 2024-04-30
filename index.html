@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elzero Courses Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="imgs/360_F_333099003_k7dXXa71RslgmqM2yxTe0LvkA04wX9C8.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <!-- Start NavBar -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./imgs/logo.png" class="w-50" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a class="nav-link text-light" href="#movies">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#books">Books</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#posts">Random Posts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#games">Games</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Stat">General Statistics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Cats-Stat">Categories Statistics</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#news">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End NavBar -->
+    <!-- Start Introduction Section -->
+    <header class="bg-body-secondary text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>Welcome To Elzero</h2>
+            <p>We Are Happy To See You Here :)</p>
+            <i class="fa-solid fa-minus fs-1 text-primary"></i>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Introduction Section -->
+    <main>
+      <!-- Start Movies Section -->
+      <section class="text-center" id="movies">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-12">
+              <h2>Movies</h2>
+              <p>Latest Added Movies</p>
+              <i class="fa-solid fa-minus fs-1 text-primary"></i>
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imgs/LOTR_The_Fellowship_of_the_Ring.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/LOTR_The_Return_Of_The_King.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/LOTR_The_Two_Towers.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/ET_The_Extra-Terrestrial.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/The_Pursuit_of_Happyness.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/A_Beautiful_Mind.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/Exam.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Movies Section -->
+      <!-- Start Books Section -->
+      <section class="text-center bg-body-secondary" id="books">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-12">
+              <h2>Books</h2>
+              <p>Latest Added Books</p>
+              <i class="fa-solid fa-minus fs-1 text-primary"></i>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 p-2">
+                    <img src="imgs/The_48_Laws_of_Power.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">The 48 Laws of Power</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 p-2">
+                    <img src="imgs/The_First_90_Days.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">First 90 Days</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 p-2">
+                    <img src="imgs/Thinking_Fast_and_Slow_.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Thinking, Fast and Slow Book</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 p-2">
+                    <img src="imgs/King_of_Scars.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">King of Scars Book</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 p-2">
+                    <img src="imgs/Death_On_The_Nile.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Death On The Nile Book</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 p-2">
+                    <img src="imgs/Atomic_Habits.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Atomic Habits</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Books Section -->
+      <!-- Start Random Posts Section -->
+      <section id="posts">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-12 text-center lh-lg">
+              <h2>Random Posts</h2>
+              <p>Random Posts From All Categories</p>
+              <i class="fa-solid fa-minus fs-1 text-primary"></i>
+              <div class="row gap-3 p-1">
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Castlevania Lords of Shadow 2</h5>
+                    <span>Castlevania Lords of Shadow 2 Game</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Games</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Ys Oath In Felghana RPG Games</h5>
+                    <span>Ys Oath In Felghana RPG Games</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Games</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row gap-3 p-1">
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Nioh</h5>
+                    <span>Nioh Hack and Slash Game</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Games</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Diablo IV</h5>
+                    <span>Diablo IV RPG Game</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Games</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row gap-3 p-1">
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Exam</h5>
+                    <span>Exam Mystery Movie</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Movies</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">Nioh 2</h5>
+                    <span>Nioh 2 Hack & Slash Game</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Games</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row gap-3 p-1">
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">E.T The Extra-Terrestrial</h5>
+                    <span>E.T The Extra-Terrestrial</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Movies</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+                <div class="card text-start bg-body-tertiary" style="width: 30rem;">
+                  <div class="card-body">
+                    <h5 class="card-title text-primary">King of Scars</h5>
+                    <span>King of Scars Book</span><br>
+                    <span><i class="fa-regular fa-calendar fa-fw"></i> February 11, 2024</span><br>
+                    <span><i class="fa-regular fa-user fa-fw"></i> Admin</span><br>
+                    <span><i class="fa-solid fa-tags fa-fw"></i> Books</span><br>
+                    <span><i class="fa-regular fa-comments fa-fw"></i> 0</span>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Random Posts Section -->
+      <!-- Start Games Section -->
+      <section class="text-center bg-body-secondary" id="games">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-12">
+              <h2>Games</h2>
+              <p>Latest Added Games</p>
+              <i class="fa-solid fa-minus fs-1 text-primary"></i>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Ys_Origin.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Ys Origin RPG Game</h5>
+                      <p class="card-text">Created By <b>Nihon Falcom</b></p>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Nioh.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Nioh Hack and Slash Game</h5>
+                      <p class="card-text">Created By <b>Team Ninja</b></p>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Diablo_3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Diablo III RPG Game</h5>
+                      <p class="card-text">Created By <b>Blizzard Entertainment</b></p>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Diablo_IV.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Diablo IV RPG Game</h5>
+                      <p class="card-text">Created By <b>Blizzard Entertainment</b></p>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Titan_Quest.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Titan Quest RPG Game</h5>
+                      <p class="card-text">Created By <b>Iron Lore Entertainment</b></p>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Titan_Quest_II.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Titan Quest II RPG Game</h5>
+                      <p class="card-text">Created By <b>Grimlore Games</b></p>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- End Games Section -->
+      <!-- Start Konami Games Section -->
+      <section class="text-center bg-body-secondary">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-12">
+              <h2>Konami Games</h2>
+              <p>Latest Added Games By Konami</p>
+              <i class="fa-solid fa-minus fs-1 text-primary"></i>
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Castlevania_LOS.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Castlevania Lords of Shadow Game</h5>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Castlevania_LOS_2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Castlevania Lords of Shadow 2 Game</h5>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Metal_Gear_Rising_Revengeance.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Metal Gear Rising: Revengeance Game</h5>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Silent_Hill_Homecoming.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Silent Hill Home Coming Game</h5>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Silent_Hill_Shattered_Memories.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Silent Hill: Shattered Memories Game</h5>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="imgs/Suikoden_iii.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title text-primary">Suikoden III Game</h5>
+                      <hr>
+                      <span><i class="fa-regular fa-calendar fa-fw"></i> February 8, 2024</span> <br>
+                      <span><i class="fa-regular fa-user fa-fw"></i> Admin</span> <br>
+                      <span><i class="fa-regular fa-comments fa-fw"></i> 0</span> 
+                      <hr>
+                      <a class="btn btn-primary" >blizzard</a>
+                      <a class="btn btn-primary" >diablo</a>
+                      <a class="btn btn-primary" >game</a>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- End Konami Games Section -->
+    <!-- Start Stat -->
+    <section class="text-center" id="Stat">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-12">
+            <h2>General Statistics</h2>
+            <p>Our Website General Statistics</p>
+            <i class="fa-solid fa-minus fs-1 text-primary"></i>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 bg-body-tertiary">
+                  <img src="imgs/comments.png" class="card-img-top w-50 m-auto animate__animated animate__pulse animate__infinite	infinite" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Comments</h5>
+                    <p class="fs-1 fw-bold">1</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 bg-body-tertiary">
+                  <img src="imgs/posts.png" class="card-img-top w-50 m-auto animate__animated animate__pulse animate__infinite	infinite" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Posts</h5>
+                    <p class="fs-1 fw-bold">31</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 bg-body-tertiary">
+                  <img src="imgs/users.png" class="card-img-top w-50 m-auto animate__animated animate__pulse animate__infinite	infinite" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Users</h5>
+                    <p class="fs-1 fw-bold">1</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Stat -->
+    <!-- Start Cats Stat -->
+    <section class="text-center bg-body-secondary" id="Cats-Stat">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-12">
+            <h2>Categories Statistics</h2>
+            <p>Our Website Categories Statistics</p>
+            <i class="fa-solid fa-minus fs-1 text-primary"></i>
+            <div class="row gap-5 ms-5">
+              <div class="card text-bg-success mb-3" style="max-width: 10rem;">
+                <div class="card-header"><i class="fa-solid fa-gamepad"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Games</h5>
+                  <p class="card-text">18</p>
+                </div>
+              </div>
+              <div class="card text-bg-danger mb-3" style="max-width: 10rem;">
+                <div class="card-header"><i class="fa-solid fa-film"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Movies</h5>
+                  <p class="card-text">7</p>
+                </div>
+              </div>
+              <div class="card text-bg-warning mb-3" style="max-width: 10rem;">
+                <div class="card-header"><i class="fa-solid fa-book"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Books</h5>
+                  <p class="card-text">3</p>
+                </div>
+              </div>
+              <div class="card text-bg-info mb-3" style="max-width: 10rem;">
+                <div class="card-header"><i class="fa-solid fa-link"></i></div>
+                <div class="card-body">
+                  <h5 class="card-title">Websites</h5>
+                  <p class="card-text">0</p>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cats Stat -->
+    <!-- Start Newsletter -->
+    <section id="news">
+        <div class="container pt-5 pb-5 text-light">
+          <h2>Newsletter</h2>
+          <p>Subscribe to our newsletter and get our newest updates right on your inbox.</p>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="email" placeholder="Enter Your Email">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </form>
+        </div>
+    </section>
+    <!-- End Newsletter -->
+  </main>
+  <!-- Start Footer -->
+  <footer class="bg-dark text-light">
+    <div class="container pt-5">
+      <div class="row footer-links">
+        <div class="col-md-4">
+          <img src="imgs/logo.png" class="mb-3" alt="">
+          <p>Hello . I am in love with programming, and I love to code all day. Coding is not just a job; it&#039;s my hobby.</p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-primary">Games Categories</h4>
+            <ul class="list-unstyled">
+              <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">RPG</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">Hack &amp; Slash</a>
+                </li>
+                <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">Puzzle</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">Adventure</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-primary">Important Links</h4>
+            <ul class="list-unstyled">
+              <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">Sample Page</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">Testimonials</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">About Us</a>
+              </li>
+              <li class="nav-item p-2">
+                <a class="nav-link border-bottom" href="#">The Team</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row border-top p-4">
+          <div class="col-sm-6">
+            <div class="copyright">&copy; 2024 <span class="text-primary"><b><i class="fa-solid fa-code"></i> By Yossif Yaser</b></span></div>
+          </div>
+          <div class="col-sm-6">
+            <div>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->      
+      <script src="js/all.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
